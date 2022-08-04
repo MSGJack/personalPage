@@ -1,0 +1,100 @@
+html {
+    font-family: 'Buenard';
+}
+
+body {
+    background-color: slateblue;
+    margin: auto;
+}
+
+header {
+    background-color: azure;
+    color: pink;
+
+}
+
+header .top {
+    display: flex;
+}
+
+header .logo {
+    font-size: 1.6rem;
+    color: crimson;
+    font-weight: bold;
+    font-family: 'Paprika';
+}
+
+header .nav {
+    display: block;
+}
+
+header .nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav a {
+    color: palegoldenrod;
+    text-decoration: none;
+}
+
+.main {
+    position: relative;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-container {
+    background-color: deeppink;
+    color: aqua;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#projects {
+    margin: auto;
+    text-align: center;
+    background-color: bisque;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.passWorks {
+    display: flex;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+#skills {
+    margin: auto;
+}
+
+.skill-container {
+    list-style: circle;
+
+}
+
+.known {
+    color: yellow;
+}
+
+.upcoming {
+    color: cornsilk;
+    
+}
+
+footer {
+    color: violet;
+}
