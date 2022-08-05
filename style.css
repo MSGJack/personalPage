@@ -15,6 +15,8 @@ header {
 
 header .top {
     display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
 }
 
 header .logo {
@@ -22,6 +24,7 @@ header .logo {
     color: crimson;
     font-weight: bold;
     font-family: 'Paprika';
+    flex: auto;
 }
 
 header .nav {
@@ -31,6 +34,7 @@ header .nav {
 header .nav ul {
     display: flex;
     list-style: none;
+    padding: 10px;
 
 }
 
@@ -47,6 +51,12 @@ header .nav ul {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+
+.container {
+    width: 100%;
+    pad: 3rem;
 }
 
 .text-container {
@@ -79,10 +89,13 @@ h2 {
 
 #skills {
     margin: auto;
+    padding: 2rem;
 }
 
 .skill-container {
     list-style: circle;
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
@@ -97,4 +110,15 @@ h2 {
 
 footer {
     color: violet;
+    list-style: none;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
 }

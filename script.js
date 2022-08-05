@@ -5,9 +5,10 @@ const links = [
     'https://www.youtube.com/watch?v=-TWnAO7vBns',
     'https://www.youtube.com/watch?v=uOw58cc6GQc',
     'https://www.youtube.com/watch?v=jGkBFIw5iMk',
-]
 
-const someLink = () => {
+];
+
+const randomLink = () => {
     let randomPick = Math.floor(Math.random() * (links.length));
     document.getElementById("displayLink").innerHTML = links[randomPick];
 }    
