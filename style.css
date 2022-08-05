@@ -41,21 +41,21 @@ header .nav ul {
 .nav a {
     color: palegoldenrod;
     text-decoration: none;
+    padding: 0.9rem;
+    font-size: 1.1rem;
 }
 
 .main {
     position: relative;
+    padding: 5px;
 }
 
 #about {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    color: antiquewhite;
 }
 
 
 .container {
-    width: 100%;
     pad: 3rem;
 }
 
@@ -65,7 +65,7 @@ header .nav ul {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -79,6 +79,7 @@ h2 {
 .project-container {
     display: flex;
     justify-content: space-evenly;
+    padding: 2rem;
 }
 
 .passWorks {
@@ -121,4 +122,30 @@ footer {
 .social {
     display: flex;
     justify-content: flex-end;
+}
+
+button {
+    font-size: 3rem;
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(118, 218, 255);
+    border: .12em solid currentColor;
+    padding: .4em .2em;
+    text-shadow: 0 0 0.5em blueviolet;
+    box-shadow: 0 0 0.4em blue;
+}
+
+button::before {
+    opacity: 1;
+}
+
+button::hover {
+    opacity: 1;
+}
+
+.pastworks {
+    display: flex;
+    justify-content: space-evenly;
+    flex: auto;
+
 }
