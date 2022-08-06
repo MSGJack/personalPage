@@ -11,4 +11,4 @@ const links = [
 const randomLink = () => {
     let randomPick = Math.floor(Math.random() * (links.length));
     document.getElementById("displayLink").innerHTML = links[randomPick];
-}    
+};

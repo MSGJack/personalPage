@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-color: azure;
-    color: pink;
+    border: 1px solid lightyellow;
+    color: palegoldenrod;
 
 }
 
@@ -21,7 +21,7 @@ header .top {
 
 header .logo {
     font-size: 1.6rem;
-    color: crimson;
+    color: palegoldenrod;
     font-weight: bold;
     font-family: 'Paprika';
     flex: auto;
@@ -50,17 +50,12 @@ header .nav ul {
     padding: 5px;
 }
 
-#about {
-    color: antiquewhite;
-}
-
-
 .container {
-    pad: 3rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .text-container {
-    background-color: deeppink;
     color: aqua;
 }
 
@@ -125,7 +120,7 @@ footer {
 }
 
 button {
-    font-size: 3rem;
+    font-size: 2rem;
     display: inline-block;
     cursor: pointer;
     color: rgb(118, 218, 255);
