@@ -68,7 +68,6 @@ h2 {
 #projects {
     margin: auto;
     text-align: center;
-    background-color: bisque;
 }
 
 .project-container {
@@ -120,7 +119,7 @@ footer {
 }
 
 button {
-    font-size: 2rem;
+    font-size: 1.7rem;
     display: inline-block;
     cursor: pointer;
     color: rgb(118, 218, 255);
@@ -143,4 +142,10 @@ button::hover {
     justify-content: space-evenly;
     flex: auto;
 
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  margin: 10px;  
 }
