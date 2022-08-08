@@ -149,3 +149,8 @@ button::hover {
   justify-content: center;
   margin: 10px;  
 }
+
+.instagram, .twitter, .facebook {
+    width: 100px;
+    height: 100px;
+}
