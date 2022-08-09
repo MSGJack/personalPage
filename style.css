@@ -119,19 +119,21 @@ button {
     font-size: 1.7rem;
     display: inline-block;
     cursor: pointer;
-    color: rgb(118, 218, 255);
+    color: plum;
     border: .12em solid currentColor;
     padding: .4em .2em;
-    text-shadow: 0 0 0.5em blueviolet;
-    box-shadow: 0 0 0.4em blue;
+    text-shadow: 0 0 0.5em lightcyan;
+    box-shadow: 0 0 0.4em purple;
     width: 20%;
+    border-radius: 20px;
+    background-color: black;
 }
 
 button::before {
     opacity: 1;
 }
 
-button::hover {
+button:hover {
     opacity: 1;
 }
 
@@ -164,4 +166,8 @@ h3 {
 
 p {
     font-size: 20px;
+}
+
+.end {
+    text-align: center;
 }
