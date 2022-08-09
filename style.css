@@ -1,5 +1,6 @@
 html {
     font-family: 'Buenard';
+    color: aliceblue;
 }
 
 body {
@@ -8,7 +9,7 @@ body {
 }
 
 header {
-    border: 1px solid lightyellow;
+    border: 1px solid pink;
     color: palegoldenrod;
 
 }
@@ -67,19 +68,16 @@ h2 {
 
 #projects {
     margin: auto;
-    text-align: center;
 }
 
 .project-container {
     display: flex;
     justify-content: space-evenly;
-    padding: 2rem;
 }
 
 .passWorks {
-    display: flex;
-    border: 5px solid red;
-    border-radius: 10px;
+    display: -ms-inline-grid;
+    justify-content: space-evenly;
 }
 
 #skills {

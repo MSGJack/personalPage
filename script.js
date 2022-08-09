@@ -8,7 +8,7 @@ const links = [
 
 ];
 
-const randomLink = () => {
+function randomLink() {
     let randomPick = links[Math.floor(Math.random() * (links.length))];
-    document.getElementById("displayLink").innerHTML = '<a href="'+randomLink+'" target="_blank">'+randomLink+'</a>'
+    document.getElementById('displayLink').innerHTML = '<a href="'+randomLink+'" target="_blank">'+randomLink+'</a>';
 };
