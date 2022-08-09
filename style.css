@@ -10,7 +10,6 @@ body {
 
 header {
     border-bottom: 1px solid pink;
-    color: palegoldenrod;
 
 }
 
@@ -22,7 +21,6 @@ header .top {
 
 header .logo {
     font-size: 1.6rem;
-    color: palegoldenrod;
     font-weight: bold;
     font-family: 'Paprika';
     flex: auto;
@@ -40,10 +38,10 @@ header .nav ul {
 }
 
 .nav a {
-    color: palegoldenrod;
     text-decoration: none;
     padding: 0.9rem;
     font-size: 1.1rem;
+    color: aliceblue;
 }
 
 .main {
@@ -134,7 +132,7 @@ button::before {
 }
 
 button:hover {
-    opacity: 1;
+    opacity: .6;
 }
 
 .pastworks {
@@ -171,4 +169,11 @@ p {
 
 .end {
     text-align: center;
+}
+
+#displayLink a {
+    color: rgbargb(206, 46, 228);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
 }
