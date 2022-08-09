@@ -1,4 +1,4 @@
-const links = [
+var links = [
     'https://www.youtube.com/watch?v=P-F7v8d7Vzc',
     'https://www.youtube.com/watch?v=8i6-PgW-uX0',
     'https://www.youtube.com/watch?v=JIc5vXcD4yY',
@@ -10,5 +10,5 @@ const links = [
 
 function randomLink() {
     let randomPick = links[Math.floor(Math.random() * (links.length))];
-    document.getElementById('displayLink').innerHTML = '<a href="'+randomLink+'" target="_blank">'+randomLink+'</a>';
+    document.getElementById('displayLink').innerHTML = '<a href="'+randomPick+'" target="_blank">'+randomPick+'</a>';
 };
