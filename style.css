@@ -41,7 +41,7 @@ header .nav ul {
     text-decoration: none;
     padding: 0.9rem;
     font-size: 1.1rem;
-    color: aliceblue;
+    color: violet;
 }
 
 .main {
@@ -54,15 +54,12 @@ header .nav ul {
     flex-direction: column;
 }
 
-.text-container {
-    color: aqua;
-}
-
 h2 {
     font-size: 2.2rem;
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
+    color: lightskyblue;
 }
 
 #projects {
@@ -173,12 +170,21 @@ p {
 
 #displayLink a {
     color: rgbargb(206, 46, 228);
-    background-color: white;
+    background-color: navy;
     border: 1px solid black;
     border-radius: 5px;
+    color: white;
 }
 
 #displayLink {
     margin: 10px;
-    background-color: deeppink;
+}
+
+.pastWorks a {
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid plum;
+    text-decoration: none;
+    background-color: lightseagreen;
+    border-radius: 2px;
 }
