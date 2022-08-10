@@ -85,14 +85,14 @@ h2 {
 }
 
 .skill-container {
-    list-style: circle;
     display: flex;
     justify-content: space-evenly;
-
+    flex-wrap: wrap;
 }
 
 .known {
     color: yellow;
+    width: 50%;
 }
 
 .upcoming {
@@ -107,7 +107,7 @@ footer {
 }
 
 
-.social {
+.contact {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
