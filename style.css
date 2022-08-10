@@ -181,10 +181,10 @@ p {
 }
 
 .pastWorks a {
-    color: white;
+    color: black;
     font-size: 1.2rem;
-    border: 1px solid plum;
+    border: 1px solid honeydew;
     text-decoration: none;
-    background-color: lightseagreen;
+    background-color: plum;
     border-radius: 2px;
 }
