@@ -188,3 +188,8 @@ p {
     background-color: plum;
     border-radius: 2px;
 }
+
+.dog {
+    width: 75px;
+    height: 75px;
+}
