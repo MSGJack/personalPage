@@ -51,7 +51,7 @@ header .nav ul {
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 h2 {
@@ -88,7 +88,7 @@ h2 {
 }
 
 .known {
-    color: yellow;
+    color: cornsilk;
     width: 50%;
 }
 
@@ -190,6 +190,6 @@ p {
 }
 
 .dog {
-    width: 75px;
-    height: 75px;
+    width: 300px;
+    height: 300px;
 }
